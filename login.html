@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InflaTrack - Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://www.wfla.com/wp-content/uploads/sites/71/2022/04/finances.png?w=876&h=493&crop=1') center/cover no-repeat fixed;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Floating messages for inflation */
+        .floating-message {
+            position: absolute;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 18px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            white-space: nowrap;
+            opacity: 0;
+            animation: floatUp 15s infinite ease-in;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.8;
+            }
+            90% {
+                opacity: 0.8;
+            }
+            100% {
+                transform: translateY(-100px) rotate(5deg);
+                opacity: 0;
+            }
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 0.6s ease-out;
+            position: relative;
+            z-index: 10;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            color: #4a5568;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .logo p {
+            color: #718096;
+            font-size: 14px;
+        }
+
+        .logo h1 span {
+            color: #e53e3e;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #4a5568;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: #f8fafc;
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: #e53e3e;
+            box-shadow: 0 0 0 3px rgba(229, 62, 62, 0.1);
+            background: white;
+        }
+
+        .remember-forgot {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+
+        .remember {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #4a5568;
+        }
+
+        .remember input {
+            width: auto;
+        }
+
+        .forgot-password {
+            color: #e53e3e;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+
+        .forgot-password:hover {
+            color: #c53030;
+            text-decoration: underline;
+        }
+
+        .login-button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #e53e3e 0%, #dd6b20 100%);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+
+        .login-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(229, 62, 62, 0.4);
+        }
+
+        .login-button:active {
+            transform: translateY(0);
+        }
+
+        .divider {
+            text-align: center;
+            position: relative;
+            margin: 25px 0;
+            color: #a0aec0;
+            font-size: 14px;
+        }
+
+        .divider::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: #e2e8f0;
+            z-index: 1;
+        }
+
+        .divider span {
+            background: white;
+            padding: 0 15px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .social-login {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .social-btn {
+            flex: 1;
+            padding: 12px;
+            border-radius: 12px;
+            border: 2px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #4a5568;
+            transition: all 0.2s ease;
+        }
+
+        .social-btn:hover {
+            border-color: #cbd5e0;
+            transform: translateY(-2px);
+        }
+
+        .signup-link {
+            text-align: center;
+            color: #4a5568;
+            font-size: 14px;
+        }
+
+        .signup-link a {
+            color: #e53e3e;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 5px;
+            transition: color 0.2s ease;
+        }
+
+        .signup-link a:hover {
+            color: #c53030;
+            text-decoration: underline;
+        }
+
+        .error-message {
+            color: #e53e3e;
+            font-size: 14px;
+            margin-top: 5px;
+            display: none;
+        }
+
+        .success-message {
+            color: #38a169;
+            font-size: 14px;
+            margin-top: 5px;
+            display: none;
+        }
+
+        /* Responsive design */
+        @media (max-width: 480px) {
+            .login-container {
+                padding: 30px 20px;
+            }
+            
+            .logo h1 {
+                font-size: 24px;
+            }
+            
+            .social-login {
+                flex-direction: column;
+            }
+            
+            .floating-message {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating inflation messages -->
+    
+
+    <div class="login-container">
+        <div class="logo">
+            <h1>Infla<span>ción</span></h1>
+            <p>Monitoreo y análisis de inflación LATINOAMERICANA</p>
+        </div>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" placeholder="tu@email.com" required>
+                <div class="error-message" id="emailError"></div>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+                <div class="error-message" id="passwordError"></div>
+            </div>
+            
+            <div class="remember-forgot">
+                <div class="remember">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Recordarme</label>
+                </div>
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            </div>
+            
+            <button type="submit" class="login-button">Iniciar Sesión</button>
+            
+            <div class="success-message" id="successMessage">¡Inicio de sesión exitoso!</div>
+        </form>
+        
+        <div class="divider">
+            <span>O continúa con</span>
+        </div>
+        
+        <div class="social-login">
+            <button class="social-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22.56 12.25C22.56 11.47 22.49 10.72 22.36 10H12V14.11H17.94C17.67 15.59 16.82 16.94 15.54 17.86V20.54H19.33C21.56 18.5 22.56 15.62 22.56 12.25Z" fill="#4285F4"/>
+                    <path d="M12 23C14.97 23 17.46 22.02 19.33 20.54L15.54 17.86C14.48 18.61 13.27 19.06 12 19.06C9.69 19.06 7.73 17.5 6.99 15.31H3.08V18.19C4.64 21.27 7.96 23 12 23Z" fill="#34A853"/>
+                    <path d="M6.99 15.31C6.79 14.72 6.68 14.08 6.68 13.4C6.68 12.72 6.79 12.08 6.99 11.49V8.61H3.08C2.39 10.01 2 11.65 2 13.4C2 15.15 2.39 16.79 3.08 18.19L6.99 15.31Z" fill="#FBBC05"/>
+                    <path d="M12 6.74C13.41 6.74 14.63 7.25 15.54 8.16L19.33 4.37C17.46 2.56 14.97 1.44 12 1.44C7.96 1.44 4.64 3.17 3.08 6.26L6.99 9.14C7.73 7.05 9.69 5.5 12 5.5C12 5.5 12 6.74 12 6.74Z" fill="#EA4335"/>
+                </svg>
+                Google
+            </button>
+            <button class="social-btn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 12.07C24 5.41 18.6 0 12 0S0 5.4 0 12.07C0 18.12 4.39 23.18 10.13 24V15.51H7.08V12.07H10.13V9.41C10.13 6.39 11.93 4.72 14.7 4.72C15.97 4.72 17.34 4.95 17.34 4.95V7.98H15.83C14.34 7.98 13.87 8.9 13.87 9.85V12.07H17.2L16.67 15.51H13.87V24C19.62 23.18 24 18.1 24 12.07Z" fill="#1877F2"/>
+                </svg>
+                Facebook
+            </button>
+        </div>
+        
+        <div class="signup-link">
+            ¿No tienes una cuenta? <a href="#">Regístrate ahora</a>
+        </div>
+    </div>
+
+    <script>
+        // Credenciales de ejemplo (puedes cambiarlas si deseas)
+        const VALID_EMAIL = 'admin@inflatrack.com';
+        const VALID_PASSWORD = '123456';
+
+        // Si ya hay sesión iniciada, redirigir al dashboard
+        (function guardIfLogged() {
+            const logged = sessionStorage.getItem('auth') === 'true' || localStorage.getItem('auth') === 'true';
+            if (logged) {
+                window.location.replace('index.html');
+            }
+        })();
+
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Limpiar mensajes previos
+            document.querySelectorAll('.error-message').forEach(el => el.style.display = 'none');
+            document.getElementById('successMessage').style.display = 'none';
+
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            const remember = document.getElementById('remember').checked;
+
+            // Validación básica
+            let isValid = true;
+
+            if (!email || !email.includes('@')) {
+                document.getElementById('emailError').textContent = 'Por favor ingresa un correo electrónico válido';
+                document.getElementById('emailError').style.display = 'block';
+                isValid = false;
+            }
+
+            if (!password || password.length < 6) {
+                document.getElementById('passwordError').textContent = 'La contraseña debe tener al menos 6 caracteres';
+                document.getElementById('passwordError').style.display = 'block';
+                isValid = false;
+            }
+
+            if (!isValid) return;
+
+            // Comprobación de credenciales
+            if (email.toLowerCase() === VALID_EMAIL && password === VALID_PASSWORD) {
+                const btn = document.getElementById('loginForm').querySelector('button');
+                btn.textContent = 'Iniciando...';
+                btn.disabled = true;
+
+                // Guardar estado de sesión
+                try {
+                    if (remember) {
+                        localStorage.setItem('auth', 'true');
+                    } else {
+                        sessionStorage.setItem('auth', 'true');
+                    }
+                } catch (err) {
+                    console.warn('No se pudo guardar el estado de sesión:', err);
+                }
+
+                // Feedback y redirección
+                document.getElementById('successMessage').style.display = 'block';
+                setTimeout(() => {
+                    window.location.replace('index.html');
+                }, 600);
+            } else {
+                document.getElementById('passwordError').textContent = 'Credenciales incorrectas';
+                document.getElementById('passwordError').style.display = 'block';
+            }
+        });
+        
+        // Social login buttons
+        document.querySelectorAll('.social-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const platform = this.textContent.trim();
+                alert(`Iniciando sesión con ${platform}...`);
+            });
+        });
+
+        // Forgot password link
+        document.querySelector('.forgot-password').addEventListener('click', function(e) {
+            e.preventDefault();
+            alert('Se ha enviado un enlace de recuperación a tu correo electrónico.');
+        });
+    </script>
+</body>
+</html>

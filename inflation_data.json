@@ -1,0 +1,2242 @@
+[
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2024,
+        "Link": "https://www.ecuadorencifras.gob.ec//indice-de-precios-al-consumidor/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0053
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2024,
+        "Link": "https://estadisticas.bcr.gob.sv/serie/indice-de-precios-al-consumidor-ipc",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0029
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2024,
+        "Link": "https://www.inec.gob.pa/avance/Default2.aspx?ID_CATEGORIA=2&ID_CIFRAS=10&ID_IDIOMA=1",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.007
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2024,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0335
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2024,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0997
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2024,
+        "Link": "https://inec.cr/indicadores/indice-precios-al-consumidor",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0084
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2024,
+        "Link": "https://www.inei.gob.pe/media/MenuRecursivo/indices_tematicos/01_indice-precios_al_consumidor-lm_dic24.xlsx",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0197
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2024,
+        "Link": "https://www.banguat.gob.gt/es/page/inflacion-total",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.017
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2024,
+        "Link": "https://www.ine.gob.cl/estadisticas/economia/indices-de-precio-e-inflacion/indice-de-precios-al-consumidor",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.045
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2024,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.052
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2024,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.038
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2024,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0487
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2024,
+        "Link": "https://www.inide.gob.ni/home/ipc",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0284
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2024,
+        "Link": "https://www.bch.hn/estadisticas-y-publicaciones-economicas/publicaciones-de-precios/indice-de-precios-al-consumidor",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0388
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2024,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0421
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2024,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0549
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2024,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC)",
+        "Inflaci\u00f3n Anual": 1.178
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2024,
+        "Link": "http://www.bcv.org.ve/estadisticas/consumidor",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 0.85
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2023,
+        "Link": "https://www.ecuadorencifras.gob.ec//indice-de-precios-al-consumidor/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0135
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2023,
+        "Link": "https://estadisticas.bcr.gob.sv/serie/indice-de-precios-al-consumidor-ipc",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0123
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2023,
+        "Link": "https://www.inec.gob.pa/avance/Default2.aspx?ID_CATEGORIA=2&ID_CIFRAS=10&ID_IDIOMA=1",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.015
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2023,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0357
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2023,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0212
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2023,
+        "Link": "https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%202732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": -0.0177
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2023,
+        "Link": "https://www.inei.gob.pe/media/MenuRecursivo/indices_tematicos/02_indice-precios_al_consumidor-nivel_nacional_2b_22.xlsx",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0341
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2023,
+        "Link": "https://www.banguat.gob.gt/es/page/inflacion-total",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0418
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2023,
+        "Link": "https://www.ine.gob.cl/estadisticas/economia/indices-de-precio-e-inflacion/indice-de-precios-al-consumidor",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.039
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2023,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0928
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2023,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.037
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2023,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0462
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2023,
+        "Link": "https://www.inide.gob.ni/home/ipc",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.056
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2023,
+        "Link": "https://www.bch.hn/estadisticas-y-publicaciones-economicas/publicaciones-de-precios/indice-de-precios-al-consumidor",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0519
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2023,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0466
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2023,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0511
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2023,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC)",
+        "Inflaci\u00f3n Anual": 2.114
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2023,
+        "Link": "http://www.bcv.org.ve/estadisticas/consumidor",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 1.8978
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2022,
+        "Link": "https://www.ecuadorencifras.gob.ec//indice-de-precios-al-consumidor/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0374
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2022,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0732
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2022,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.029
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2022,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0783
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2022,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0312
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2022,
+        "Link": "https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%202732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0788
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2022,
+        "Link": "https://www.inei.gob.pe/media/MenuRecursivo/indices_tematicos/01_indice-precios_al_consumidor-lm_2b_10.xlsx",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0856
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2022,
+        "Link": "https://www.banguat.gob.gt/es/page/inflacion-total",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0924
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2022,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.128
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2022,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.1312
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2022,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.081
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2022,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0579
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2022,
+        "Link": "https://www.inide.gob.ni/home/ipc",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.1159
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2022,
+        "Link": "https://www.bch.hn/estadisticas-y-publicaciones-economicas/publicaciones-de-precios/indice-de-precios-al-consumidor",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.098
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2022,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0782
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2022,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0829
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2022,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC)",
+        "Inflaci\u00f3n Anual": 0.948
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2022,
+        "Link": "http://www.bcv.org.ve/estadisticas/consumidor",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 2.3408
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2021,
+        "Link": "https://www.ecuadorencifras.gob.ec//indice-de-precios-al-consumidor/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0194
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2021,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0611
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2021,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.026
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2021,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.085
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2021,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.009
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2021,
+        "Link": "https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%202732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.033
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.069
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2021,
+        "Link": "https://www.banguat.gob.gt/es/page/inflacion-total",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0307
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.072
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0562
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2021,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.068
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.1006
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2021,
+        "Link": "https://www.inide.gob.ni/Home/Noticias#ipcdic2020",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0721
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2021,
+        "Link": "https://www.bch.hn/estadisticas-y-publicaciones-economicas/publicaciones-de-precios/indice-de-precios-al-consumidor",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0532
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0736
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0796
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2021,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC)",
+        "Inflaci\u00f3n Anual": 0.509
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2021,
+        "Link": "http://www.bcv.org.ve/estadisticas/consumidor",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 6.864
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2020,
+        "Link": "https://www.ecuadorencifras.gob.ec//indice-de-precios-al-consumidor/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": -0.0093
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2020,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": -0.0009
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2020,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": -0.0155
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2020,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0555
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2020,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.007
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2020,
+        "Link": "https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%202732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0089
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0197
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2020,
+        "Link": "https://www.banguat.gob.gt/es/page/inflacion-total",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0482
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.03
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0161
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2020,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.022
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.045
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2020,
+        "Link": "https://www.inide.gob.ni/Home/Noticias#ipcdic2020",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0293
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2020,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0401
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0315
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0941
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2020,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC)",
+        "Inflaci\u00f3n Anual": 0.361
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2020,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 29.598
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2019,
+        "Link": "https://www.bce.fin.ec/index.php/informacioneconomica/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": -0.0007
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2019,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0001
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2019,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": -0.00355
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2019,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0366
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2019,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0147
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2019,
+        "Link": "https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=%202732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0152
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0188
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0341
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.03
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.038
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2019,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.028
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0431
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2019,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.065
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2019,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0408
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0283
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0879
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2019,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC)",
+        "Inflaci\u00f3n Anual": 0.538
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2019,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 95.855
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2018,
+        "Link": "https://www.bce.fin.ec/index.php/informacioneconomica/",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0027
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2018,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0043
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2018,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.008
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2018,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0117
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2018,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0151
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2018,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0203
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0219
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0231
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.026
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0318
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2018,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.032
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0375
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2018,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0389
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2018,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0422
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0483
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.ine.gub.uy",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0796
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2018,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC) estim\u00f3 que la inflaci\u00f3n del 2015 se sit\u00fao en torno a 30%, mientras espera un indicador \u00fanico que ser\u00e1 divulgado en unos ocho meses",
+        "Inflaci\u00f3n Anual": 0.476
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2018,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 1300.60244461888
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": -0.002
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2017,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.009
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.015
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2017,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0204
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.023
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2017,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0257
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2017,
+        "Link": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0271
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.bcb.gov.br",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0279
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0409
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2017,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.042
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2017,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.045
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2017,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0473
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0568
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2017,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0568
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0655
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/inflacion.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0677
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2017,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC) estim\u00f3 que la inflaci\u00f3n del 2015 se sit\u00fao en torno a 30%, mientras espera un indicador \u00fanico que ser\u00e1 divulgado en unos ocho meses",
+        "Inflaci\u00f3n Anual": 0.248
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2017,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 8.62629009051876
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2016,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0077
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2016,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.0146
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": -0.0094
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0336
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.017
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0331
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.04
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0313
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0423
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2016,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.039
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0112
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.0323
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.027
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0575
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.081
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.ine.gub.uy/web/guest/ipc-indice-de-precios-al-consumo",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0629
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2016,
+        "Link": "http://www.indec.gob.ar/",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC) estim\u00f3 que la inflaci\u00f3n del 2015 se sit\u00fao en torno a 30%, mientras espera un indicador \u00fanico que ser\u00e1 divulgado en unos ocho meses",
+        "Inflaci\u00f3n Anual": 0.36
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2016,
+        "Link": "http://www.bcv.org.ve/",
+        "Fuentes": "BCV",
+        "Inflaci\u00f3n Anual": 2.744
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2015,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": -0.0081
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2015,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.002
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0102
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0213
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0234
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0236
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0295
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0305
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0307
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2015,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.031
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0338
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.inei.gob.pe/",
+        "Fuentes": "INEI",
+        "Inflaci\u00f3n Anual": 0.044
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.044
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0677
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0944
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.1067
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2015,
+        "Link": "http://www.indec.mecon.ar",
+        "Fuentes": "El Instituto Nacional de Estad\u00edsticas y Censos de Argentina (INDEC) estim\u00f3 que la inflaci\u00f3n del 2015 se sit\u00fao en torno a 30%, mientras espera un indicador \u00fanico que ser\u00e1 divulgado en unos ocho meses",
+        "Inflaci\u00f3n Anual": 0.3
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2015,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 1.809
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2014,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0513
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2014,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.026
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.005
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0408
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0158
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.05820105820105814
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0519
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0648
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0295
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2014,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.042
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0367
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0322
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.046
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0366
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0826
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0641
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2014,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.239
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2014,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.685
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2013,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0368
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2013,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.04
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0079
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0397
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0388
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.04916732751784303
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0648
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0567
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0439
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2013,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.037
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.027
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0286
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.03
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0194
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0852
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0591
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2013,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.109
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2013,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.561
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2012,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0455
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2012,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.046
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0078
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0357
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.039068299925760996
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.05390722941913917
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0454
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0662
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0345
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2012,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.04
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0416
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0265
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.015
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0244
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0748
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0584
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2012,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.108
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2012,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.201
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2011,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0474
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2011,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.059
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0506
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0382
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0776
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.05604589585172115
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.069
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0795
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.062
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2011,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.049
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0541
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0474
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.044
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0373
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.086
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.065
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2011,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.095
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2011,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.276
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2010,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0582
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2010,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.035
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0213
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.035
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.06238305064284422
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.065
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.07173
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0923
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.0539
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2010,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.0721
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0333
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0208
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0297
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0317
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0693
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.05909
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2010,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.109
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2010,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.272
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2009,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.0405
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2009,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.01893004115226333
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": -0.0019
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.01893004115226333
+    },
+    {
+        "Pa\u00eds": "Rep. Dominicana",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bancentral.gov.do/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.057648110316649515
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.114
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.0026
+    },
+    {
+        "Pa\u00eds": "Nicaragua",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bcn.gob.ni/publicaciones/periodicidad/mensual/inflacion/index.php",
+        "Fuentes": "Banco Nicaragua",
+        "Inflaci\u00f3n Anual": 0.0093
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": -0.0027876468980595347
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2009,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.0186
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0431
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0015
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": -0.014
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.02
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.059019835764370754
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0431
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2009,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.152
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2009,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.251
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2008,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.139
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2008,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.0676625659050967
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2008,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0547
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.0676625659050967
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2008,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.1083
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2008,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.1185
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.09400185228799017
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2008,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.075
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0883
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0665
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.071
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0767
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.0919
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.059
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2008,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.0702
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2008,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.309
+    },
+    {
+        "Pa\u00eds": "Costa Rica",
+        "A\u00f1o": 2007,
+        "Link": "http://indicadoreseconomicos.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?idioma=1&CodCuadro=2732",
+        "Fuentes": "Banco de Costa Rica",
+        "Inflaci\u00f3n Anual": 0.1081
+    },
+    {
+        "Pa\u00eds": "Panam\u00e1",
+        "A\u00f1o": 2007,
+        "Link": "http://www.contraloria.gob.pa/inec/",
+        "Fuentes": "INEC",
+        "Inflaci\u00f3n Anual": 0.06355140186915875
+    },
+    {
+        "Pa\u00eds": "El Salvador",
+        "A\u00f1o": 2007,
+        "Link": "http://www.bcr.gob.sv/bcrsite/?x21=73&lang=es",
+        "Fuentes": "Banco del Salvador",
+        "Inflaci\u00f3n Anual": 0.0486
+    },
+    {
+        "Pa\u00eds": "M\u00e9xico ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.banxico.org.mx/portal-inflacion/index.html",
+        "Fuentes": "Banco de Mexico",
+        "Inflaci\u00f3n Anual": 0.06355140186915875
+    },
+    {
+        "Pa\u00eds": "Honduras",
+        "A\u00f1o": 2007,
+        "Link": "http://www.bch.hn/indice_precios_pub.php",
+        "Fuentes": "Banco de Honduras",
+        "Inflaci\u00f3n Anual": 0.0887
+    },
+    {
+        "Pa\u00eds": "Bolivia",
+        "A\u00f1o": 2007,
+        "Link": "http://www.bcb.gob.bo/",
+        "Fuentes": "Banco Central",
+        "Inflaci\u00f3n Anual": 0.1173
+    },
+    {
+        "Pa\u00eds": "Guatemala ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.banguat.gob.gt/inc/ver.asp?id=/estaeco/sr/sr005",
+        "Fuentes": "Banco de Guatemala",
+        "Inflaci\u00f3n Anual": 0.08745539138760507
+    },
+    {
+        "Pa\u00eds": "Paraguay",
+        "A\u00f1o": 2007,
+        "Link": "https://www.bcp.gov.py/",
+        "Fuentes": "Banco paraguay",
+        "Inflaci\u00f3n Anual": 0.0593
+    },
+    {
+        "Pa\u00eds": "Ecuador ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.bce.fin.ec/index.php/indicadores-economicos",
+        "Fuentes": "Banco Ecuador",
+        "Inflaci\u00f3n Anual": 0.0332
+    },
+    {
+        "Pa\u00eds": "Per\u00fa ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.bcrp.gob.pe/",
+        "Fuentes": "Banco Per\u00fa",
+        "Inflaci\u00f3n Anual": 0.0393
+    },
+    {
+        "Pa\u00eds": "Chile ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.ine.cl/",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.078
+    },
+    {
+        "Pa\u00eds": "Colombia ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.dane.gov.co/",
+        "Fuentes": "DANE",
+        "Inflaci\u00f3n Anual": 0.0569
+    },
+    {
+        "Pa\u00eds": "Uruguay ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.ine.gub.uy/Default.asp",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.085
+    },
+    {
+        "Pa\u00eds": "Brasil ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.bcb.gov.br/pec/metas/tabelametaseresultados.pdf",
+        "Fuentes": "Banco de Brasil",
+        "Inflaci\u00f3n Anual": 0.0446
+    },
+    {
+        "Pa\u00eds": "Argentina ",
+        "A\u00f1o": 2007,
+        "Link": "http://www.indec.mecon.ar/nivel4_default.asp?id_tema_1=3&id_tema_2=5&id_tema_3=31",
+        "Fuentes": "INDEC",
+        "Inflaci\u00f3n Anual": 0.0847
+    },
+    {
+        "Pa\u00eds": "Venezuela",
+        "A\u00f1o": 2007,
+        "Link": "http://www.ine.gov.ve/index.php?option=com_content&view=category&id=108&Itemid=62",
+        "Fuentes": "INE",
+        "Inflaci\u00f3n Anual": 0.2252
+    }
+]

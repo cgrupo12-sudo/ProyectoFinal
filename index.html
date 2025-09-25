@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard Inflación LATAM</title>
+  <link rel="icon" href="img/icono.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Layout para los charts inferiores */
+    .bottom-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+      align-items: stretch;
+    }
+    .bottom-charts .panel { padding: 16px; }
+    .bottom-charts canvas { width: 100%; height: 320px; }
+
+    /* Navbar */
+    .main-nav {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      margin-left: 24px;
+      flex-wrap: wrap;
+    }
+    .main-nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      padding: 6px 10px;
+      border-radius: 8px;
+      transition: background-color .2s ease;
+    }
+    .main-nav a:hover { background: rgba(255,255,255,0.08); }
+    .app-header .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* Footer mejorado */
+    .app-footer {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding: 16px;
+    }
+    .footer-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .footer-links a { color: #cbd5e1; text-decoration: none; }
+    .footer-links a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <script>
+    // Guardia de acceso: redirige a login si no hay sesión
+    (function guard() {
+      try {
+        var logged = (sessionStorage.getItem('auth') === 'true') || (localStorage.getItem('auth') === 'true');
+        if (!logged) {
+          window.location.replace('login.html');
+        }
+      } catch (e) {
+        // En caso de error con storage, por seguridad redirigimos
+        window.location.replace('login.html');
+      }
+    })();
+  </script>
+  <header class="app-header">
+    <div class="header-row">
+      <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+        <div class="brand">
+          <div class="logo-glow"></div>
+          <h1>Inflación LATAM</h1>
+        </div>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="#controles">Controles</a>
+          <a href="#graficos">Gráficos</a>
+          <a href="#resumen">Resumen</a>
+          <a href="model/info.html">Acerca</a>
+        </nav>
+      </div>
+      <div class="actions">
+        <button id="btn-export" title="Exportar imagen">Exportar PNG</button>
+        <button id="btn-reset-zoom" title="Reiniciar zoom">Reset Zoom</button>
+        <button id="btn-download-dataset" title="Descargar dataset (Excel)">Descargar dataset</button>
+        <button id="btn-logout" title="Cerrar sesión">Salir</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel controls" id="controles">
+      <h2>Controles</h2>
+      <div class="control-grid">
+        <div class="control">
+          <label for="chart-type">Tipo de gráfico</label>
+          <select id="chart-type">
+            <option value="line">Líneas</option>
+            <option value="bar">Barras</option>
+            <option value="scatter">Puntos</option>
+          </select>
+        </div>
+
+        <div class="control control-range">
+          <div class="range-header">
+            <label>Rango de años</label>
+            <span id="years-label">—</span>
+          </div>
+          <div class="range-inputs">
+            <input type="number" id="year-min" placeholder="Desde" />
+            <input type="number" id="year-max" placeholder="Hasta" />
+            <button id="apply-years" class="ghost">Aplicar</button>
+          </div>
+          <div class="range-slider">
+            <input type="range" id="slider-min" min="0" max="1" value="0" step="1" />
+            <input type="range" id="slider-max" min="0" max="1" value="1" step="1" />
+          </div>
+        </div>
+
+        <div class="control control-multiselect">
+          <label for="search-country">Países</label>
+          <input id="search-country" type="text" placeholder="Buscar país..." />
+          <div class="pill-actions">
+            <button id="select-all" class="ghost">Seleccionar todos</button>
+            <button id="clear-all" class="ghost">Limpiar</button>
+          </div>
+          <div id="countries" class="pillbox" aria-label="Selector de países">
+            <!-- Se llenará dinámicamente -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="introduccion">
+      <h2>Acerca de este tablero</h2>
+      <p>
+        Este dashboard presenta la <strong>inflación anual</strong> por país en Latinoamérica
+        para el periodo <strong>2007–2024</strong>. Los datos provienen de fuentes oficiales
+        y se incluyen localmente en <code>inflation_data.json</code> y el archivo de apoyo
+        <code>Data/Inflacion.xlsx</code>.
+      </p>
+      <p>
+        Usa los <strong>Controles</strong> para elegir el tipo de gráfico, acotar el rango de años
+        y seleccionar los países a comparar. Puedes navegar con el mouse: haz <em>scroll</em> para
+        <strong>zoom</strong> y arrastra para <strong>pan</strong> (el zoom/pan funciona mejor manteniendo presionada la tecla Ctrl en algunos navegadores).
+      </p>
+      <ul>
+        <li><strong>Alcance:</strong> Solo inflación anual 2007–2024.</li>
+        <li><strong>Gráficos:</strong> líneas, barras y puntos (scatter). En scatter, el eje X es lineal (por año).</li>
+        <li><strong>Resumen adicional:</strong> Dona con promedios por país y gráfico de cajas con la distribución por país en el rango activo.</li>
+        <li><strong>Descarga:</strong> Puedes descargar el dataset en Excel desde el botón “Descargar dataset”.</li>
+      </ul>
+      <p>
+        Nota: algunos valores muy altos pueden corresponder a episodios de inflación extraordinaria.
+      </p>
+    </section>
+
+    <section class="panel chart-panel" id="graficos">
+      <div class="chart-header">
+        <h2>Inflación anual por país (%)</h2>
+        <div class="legend-hint">Tip: usa scroll para zoom y arrastra para pan</div>
+      </div>
+      <canvas id="inflationChart"></canvas>
+    </section>
+
+    <section class="panel info">
+      <div class="stats" id="quick-stats">
+        <!-- KPIs dinámicos -->
+      </div>
+    </section>
+  </main>
+
+  <section class="panel bottom-charts" id="resumen">
+    <h2>Resumen adicional</h2>
+    <div class="bottom-grid">
+      <div class="panel">
+        <h3>Promedio por país (Dona)</h3>
+        <canvas id="doughnutChart"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Distribución por país (Cajas)</h3>
+        <canvas id="boxplotChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <footer class="app-footer">
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '68d497c37fe5c16f8da910a6' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production',
+              voice: {
+                url: "https://runtime-api.voiceflow.com"
+              }
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+    <span>Fuentes oficiales de cada país. Datos locales en <code>inflation_data.json</code>.</span>
+    <small>&copy; <span id="year-copy"></span> InflaTrack LATAM. Todos los derechos reservados.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-boxplot@4.3.0/build/index.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.umd.min.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Manejar cierre de sesión
+    (function setupLogout(){
+      var btn = document.getElementById('btn-logout');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        try {
+          sessionStorage.removeItem('auth');
+          localStorage.removeItem('auth');
+        } catch(e) {}
+        window.location.replace('login.html');
+      });
+    })();
+    // Descargar dataset (Excel)
+    (function setupDatasetDownload(){
+      var btn = document.getElementById('btn-download-dataset');
+      if (!btn) return;
+      btn.addEventListener('click', function(){
+        try {
+          var link = document.createElement('a');
+          link.href = 'Data/Inflacion.xlsx'; // ruta relativa dentro del proyecto
+          link.download = 'Inflacion.xlsx';   // nombre sugerido de descarga
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        } catch (e) {
+          // Fallback: navegación directa si el navegador ignora 'download'
+          window.location.href = 'Data/Inflacion.xlsx';
+        }
+      });
+    })();
+    // Año dinámico en footer
+    (function(){
+      var y = new Date().getFullYear();
+      var el = document.getElementById('year-copy');
+      if (el) el.textContent = y;
+    })();
+  </script>
+</body>
+</html>
