@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acerca | InflaTrack LATAM</title>
+  <link rel="icon" href="../img/icono.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:#0f172a; --panel:#111827; --text:#e5e7eb; --muted:#94a3b8; --accent:#e11d48;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+    .container{max-width:1080px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand h1{font-size:22px;margin:0}
+    nav a{color:var(--text);text-decoration:none;margin-right:12px;padding:6px 10px;border-radius:8px}
+    nav a:hover{background:rgba(255,255,255,0.08)}
+    .panel{background:var(--panel);border-radius:14px;padding:20px;margin:16px 0}
+    h2{margin:0 0 10px 0}
+    p{line-height:1.6;color:var(--text)}
+    ul{margin:8px 0 8px 18px}
+    li{margin:6px 0;color:var(--text)}
+    code{background:#0b1220;color:#f0f9ff;padding:2px 6px;border-radius:6px}
+    .muted{color:var(--muted)}
+    footer{margin-top:28px;padding-top:12px;border-top:1px solid rgba(255,255,255,.08);color:var(--muted)}
+    .cta{display:inline-block;margin-top:10px;background:linear-gradient(135deg,#e11d48,#f97316);color:white;border:none;border-radius:10px;padding:10px 14px;text-decoration:none}
+    .cta:hover{filter:brightness(1.05)}
+
+    /* Galería */
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+    .card { position:relative; overflow:hidden; border-radius:14px; background:#0b1220; border:1px solid rgba(255,255,255,.06); }
+    .card img { width:100%; height:180px; object-fit:cover; display:block; transform:scale(1); transition:transform .6s ease; opacity:0; animation:fadeInUp .8s ease forwards; }
+    .card:hover img { transform:scale(1.06); }
+    .card .caption { position:absolute; left:0; right:0; bottom:0; padding:8px 10px; background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.65)); color:#e5e7eb; font-size:14px; }
+    @keyframes fadeInUp { from { opacity:0; transform:translateY(12px) } to { opacity:1; transform:translateY(0) } }
+
+    /* Carrusel */
+    .carousel{position:relative; border-radius:14px; overflow:hidden; background:#0b1220; border:1px solid rgba(255,255,255,.06)}
+    .carousel .slides{position:relative; width:100%; height:360px}
+    .carousel .slide{position:absolute; inset:0; opacity:0; transition:opacity .6s ease}
+    .carousel .slide.active{opacity:1}
+    .carousel .slide img{width:100%; height:100%; object-fit:cover; display:block}
+    .carousel .carousel-caption{position:absolute; left:0; right:0; bottom:0; padding:10px 12px; background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.65)); color:#e5e7eb}
+    .carousel .carousel-controls{position:absolute; left:0; right:0; bottom:8px; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:0 8px}
+    .carousel button{background:rgba(0,0,0,.45); color:#e5e7eb; border:none; padding:6px 10px; border-radius:8px; cursor:pointer}
+    .carousel button:hover{background:rgba(0,0,0,.6)}
+    .carousel .dots{display:flex; gap:6px; align-items:center; justify-content:center; flex:1}
+    .carousel .dot{width:8px; height:8px; border-radius:999px; background:#64748b; opacity:.6; cursor:pointer}
+    .carousel .dot.active{background:#e11d48; opacity:1}
+  </style>
+  <script>
+    // Guardia sencilla: si no hay sesión, regresar al login
+    (function guard(){
+      try{
+        var ok = (sessionStorage.getItem('auth')==='true')||(localStorage.getItem('auth')==='true');
+        if(!ok){ window.location.replace('../login.html'); }
+      }catch(_){ window.location.replace('../login.html'); }
+    })();
+  </script>
+  </head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img src="../img/icono.ico" alt="Icono" width="24" height="24" />
+        <h1>InflaTrack LATAM</h1>
+      </div>
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="#funciona">Cómo funciona</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#datos">Datos</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <section class="panel">
+      <h2>¿Qué es InflaTrack LATAM?</h2>
+      <p>
+        InflaTrack LATAM es un tablero interactivo para analizar la <strong>inflación anual</strong>
+        de países latinoamericanos en el periodo <strong>2007–2024</strong>. Permite comparar países,
+        ajustar el rango de años y cambiar el tipo de visualización para explorar tendencias.
+      </p>
+      <a class="cta" href="../index.html">Ir al tablero</a>
+    </section>
+
+    <section id="galeria" class="panel">
+      <h2>Galería</h2>
+      
+      <div class="carousel" id="carousel">
+        <div class="slides" id="carousel-slides"></div>
+        <div class="carousel-controls">
+          <button id="prev-slide" aria-label="Anterior">‹</button>
+          <div class="dots" id="carousel-dots"></div>
+          <button id="next-slide" aria-label="Siguiente">›</button>
+        </div>
+        <div class="carousel-caption" id="carousel-caption"></div>
+      </div>
+    </section>
+
+    <section id="funciona" class="panel">
+      <h2>Cómo funciona</h2>
+      <ul>
+        <li><strong>Filtros:</strong> elige países y un rango de años (2007–2024) en los controles.</li>
+        <li><strong>Gráficos principales:</strong> líneas, barras o puntos (scatter) para visualizar la serie por país.</li>
+        <li><strong>Interacción:</strong> zoom con scroll y pan arrastrando; botón “Reset Zoom” para volver al estado inicial.</li>
+        <li><strong>Exportación:</strong> descarga la imagen del gráfico actual en PNG.</li>
+        <li><strong>Resumen adicional:</strong> dona con promedios por país y gráfico de cajas (o barras en fallback) con la distribución.</li>
+      </ul>
+    </section>
+
+    <section id="caracteristicas" class="panel">
+      <h2>Características clave</h2>
+      <ul>
+        <li><strong>Periodo:</strong> únicamente inflación anual 2007–2024.</li>
+        <li><strong>Selección múltiple de países</strong> con búsqueda rápida.</li>
+        <li><strong>Indicadores</strong> rápidos: promedio, mínimo y máximo del rango activo.</li>
+        <li><strong>Persistencia de sesión</strong> para proteger el acceso al tablero.</li>
+      </ul>
+    </section>
+
+    <section id="datos" class="panel">
+      <h2>Datos y descargas</h2>
+      <p>
+        El tablero usa un archivo local <code>inflation_data.json</code> y un respaldo en Excel
+        <code>Data/Inflacion.xlsx</code> para facilitar su análisis fuera de la aplicación.
+      </p>
+      <ul>
+        <li><strong>Descarga del dataset:</strong> usa el botón “Descargar dataset” en el tablero.</li>
+        <li><strong>Formato:</strong> porcentajes anuales; algunas fuentes reportan fracciones (p.ej. 0.045 = 4.5%).</li>
+        <li><strong>Normalización:</strong> valores |x| &lt; 3 se interpretan como fracciones y se multiplican por 100.</li>
+      </ul>
+    </section>
+
+    <section id="faq" class="panel">
+      <h2>Preguntas frecuentes</h2>
+      <ul>
+        <li><strong>¿Por qué algunos valores son muy altos?</strong> Corresponden a episodios extraordinarios de inflación.</li>
+        <li><strong>¿Por qué no veo datos?</strong> Asegúrate de seleccionar países y un rango con datos; recarga bajo un servidor local.</li>
+        <li><strong>¿Puedo exportar la gráfica?</strong> Sí, con “Exportar PNG”.</li>
+      </ul>
+    </section>
+
+    <footer>
+        <script type="text/javascript">
+            (function(d, t) {
+                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                v.onload = function() {
+                  window.voiceflow.chat.load({
+                    verify: { projectID: '68d497c37fe5c16f8da910a6' },
+                    url: 'https://general-runtime.voiceflow.com',
+                    versionID: 'production',
+                    voice: {
+                      url: "https://runtime-api.voiceflow.com"
+                    }
+                  });
+                }
+                v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+            })(document, 'script');
+          </script>
+      <div class="muted">&copy; <span id="y"></span> InflaTrack LATAM — Acerca</div>
+    </footer>
+  </div>
+  <script>
+    (function(){ var el=document.getElementById('y'); if(el) el.textContent=new Date().getFullYear(); })();
+
+    // Carrusel: carga dinámica, autoplay, controles y dots
+    (function buildCarousel(){
+      var slidesEl = document.getElementById('carousel-slides');
+      var dotsEl = document.getElementById('carousel-dots');
+      var captionEl = document.getElementById('carousel-caption');
+      var prevBtn = document.getElementById('prev-slide');
+      var nextBtn = document.getElementById('next-slide');
+      if (!slidesEl || !dotsEl || !captionEl) return;
+
+      // Usa tus nombres reales de archivos (sin extensión) ubicados en ../img/info/
+      var bases = ['img1','img2','img3'];
+      var exts = ['png','jpg','jpeg','webp'];
+      var captions = {
+        'img1':'Vista 1',
+        'img2':'Vista 2',
+        'img3':'Vista 3'
+      };
+
+      var items = [];
+      var tested = 0;
+      var targets = bases.length * exts.length;
+      var foundForBase = {}; // base -> bool
+
+      function addSlide(src, caption){
+        var slide = document.createElement('div');
+        slide.className = 'slide';
+        var img = document.createElement('img');
+        img.loading = 'lazy';
+        img.src = src;
+        img.alt = caption;
+        slide.appendChild(img);
+        slidesEl.appendChild(slide);
+        var dot = document.createElement('div');
+        dot.className = 'dot';
+        dot.addEventListener('click', function(){ goTo(items.indexOf(slide)); });
+        dotsEl.appendChild(dot);
+        items.push(slide);
+      }
+
+      bases.forEach(function(base){ foundForBase[base]=false; });
+      bases.forEach(function(base){
+        exts.forEach(function(ext){
+          var test = new Image();
+          var path = '../img/info/' + base + '.' + ext;
+          test.onload = function(){
+            if (!foundForBase[base]){ // solo la primera que cargue por base
+              foundForBase[base]=true;
+              addSlide(path, captions[base]||'Vista');
+            }
+            maybeInit();
+          };
+          test.onerror = function(){ maybeInit(); };
+          test.src = path;
+        });
+      });
+
+      var idx = 0, timer = null;
+      function show(i){
+        if (items.length === 0) return;
+        idx = (i + items.length) % items.length;
+        items.forEach(function(slide, k){ slide.classList.toggle('active', k===idx); });
+        var dots = dotsEl.querySelectorAll('.dot');
+        dots.forEach(function(d,k){ d.classList.toggle('active', k===idx); });
+        // Caption: usar el alt del slide actual
+        var img = items[idx].querySelector('img');
+        captionEl.textContent = (img && img.alt) ? img.alt : 'Vista';
+      }
+      function next(){ show(idx+1); }
+      function prev(){ show(idx-1); }
+      function start(){ stop(); timer = setInterval(next, 4000); }
+      function stop(){ if (timer) { clearInterval(timer); timer = null; } }
+      function goTo(i){ show(i); start(); }
+
+      function maybeInit(){
+        tested++;
+        if (tested >= targets){
+          if (items.length === 0){
+            // Fallback local: data URL SVG para evitar red externa
+            var svg = encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600"><rect width="100%" height="100%" fill="#0b1220"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#e5e7eb" font-family="Inter,Arial" font-size="32">Agrega imagenes en img/info</text></svg>');
+            addSlide('data:image/svg+xml;utf8,'+svg, 'Agrega imágenes en img/info');
+          }
+          show(0); start();
+          if (prevBtn) prevBtn.addEventListener('click', function(){ prev(); start(); });
+          if (nextBtn) nextBtn.addEventListener('click', function(){ next(); start(); });
+          var carousel = document.getElementById('carousel');
+          if (carousel){
+            carousel.addEventListener('mouseenter', stop);
+            carousel.addEventListener('mouseleave', start);
+          }
+        }
+      }
+    })();
+  </script>
+
+</body>
+</html>
